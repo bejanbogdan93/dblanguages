@@ -216,7 +216,7 @@ main article p{
 }
 
 #contact-section p{
-    color: var(--contrast);
+    /* color: var(--contrast); */
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
@@ -227,6 +227,7 @@ main article p{
     text-decoration: none;
 }
 #contact-section a{
+    margin-left: 5px;
     color: var(--contrast);
 }
 #contact-section i{
