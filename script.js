@@ -2,13 +2,13 @@ const priceLists = document.getElementsByClassName('list');
 
 
 //Make new price display: none if the current and new are the same.
-for(const list of priceLists){
-    for(const listItem of list.children){
-       if (listItem.getElementsByClassName('current')[0].innerHTML == listItem.getElementsByClassName('new')[0].innerHTML){
-            listItem.getElementsByClassName('new')[0].style.display = "none";
-       }
-    }
-};
+// for(const list of priceLists){
+//     for(const listItem of list.children){
+//        if (listItem.getElementsByClassName('current')[0].innerHTML == listItem.getElementsByClassName('new')[0].innerHTML){
+//             listItem.getElementsByClassName('new')[0].style.display = "none";
+//        }
+//     }
+// };
 
 
 function scroll() {
